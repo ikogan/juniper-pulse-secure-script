@@ -6,6 +6,14 @@ This script is based on the experimental Juniper support from
 It's a simple script that uses Zenity to prompt the user for credentials
 and provide feedback, gksu to obtain root, and openconnect to make the connection.
 
+The script was based on instructions at http://x123.net/junos-pulse-ubuntu-openconnect.html
+and was developed/tested on Ubuntu 14.04 with a Linux 4.2 kernel (compiled for driver
+support)
+
+```
+Linux MyBox 4.2.0-13-generic #15 SMP Wed Sep 30 21:41:44 EDT 2015 x86_64 x86_64 x86_64 GNU/Linux
+```
+
 ## Installing/Dependencies/Usage
 
 The following packages must be installed in Ubuntu:
