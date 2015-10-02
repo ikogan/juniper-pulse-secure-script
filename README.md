@@ -41,8 +41,10 @@ it's there, you can use `./juniper-vpn-connect.sh start` to start it and
 
 Ideally, create a `.desktop` entry
 for this. http://askubuntu.com/questions/436891/create-a-desktop-file-that-opens-and-execute-a-command-in-a-terminal
-has some information on how to create these files though it's not necessary
-(or likely desirable) to do so for this script. An example might be:
+has some information on how to create these files though while the question
+asks how to run the script in a terminal, it's probably not necessary
+(or likely desirable) to do so for this script, there isn't much output.
+An example might be:
 
 ```
 [Desktop Entry]
@@ -58,3 +60,5 @@ Categories=Internet;
 
 Place this file into `~/.local/share/applications/SSL VPN.desktop`. Note that you'll
 probably need to create another icon to stop the VPN. That'll be fixed later.
+
+*Note*: A good bit of output is sent to syslog.
