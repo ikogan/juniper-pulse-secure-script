@@ -26,7 +26,7 @@ OpenConnect must be compiled from source for the experimental Juniper support:
 
 ```
 wget ftp://ftp.infradead.org/pub/openconnect/openconnect-7.06.tar.gz
-tar xzf openconnect-7.06.tar.gz{
+tar xzf openconnect-7.06.tar.gz
 cd openconnect-7.06
 ./configure --with-vpnc-script=/usr/share/vpnc-scripts/vpnc-script
 make
