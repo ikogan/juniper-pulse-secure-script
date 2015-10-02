@@ -26,7 +26,11 @@ sudo make install
 ```
 
 Finally, simply place this script somewhere and `chmod +x` it. Then you'll
-want to edit the script and change the `VPN_URL` variable at the top.
+want to edit the script and change the `VPN_URL` variable at the top. Once
+it's there, you can use `./juniper-vpn-connect.sh start` to start it and
+`./juniper-vpn-connect.sh stop` to stop it.
+
+
 Ideally, create a `.desktop` entry
 for this. http://askubuntu.com/questions/436891/create-a-desktop-file-that-opens-and-execute-a-command-in-a-terminal
 has some information on how to create these files though it's not necessary
