@@ -41,7 +41,7 @@ has some information on how to create these files though it's not necessary
 Version=1.0
 Name=VPN Conection
 Comment=Connect to the VPN
-Exec=bash "/home/${user}/juniper-pulse-secure-script/juniper-vpn-connect.sh start"
+Exec=/home/${user}/juniper-pulse-secure-script/juniper-vpn-connect.sh start
 Icon=network-vpn
 Terminal=true 
 Type=Application
